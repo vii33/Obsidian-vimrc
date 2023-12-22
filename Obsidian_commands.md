@@ -1,8 +1,12 @@
 # Available vimrc commands in Obsidian
 
-These commands can be used in the [vimrc file](https://github.com/esm7/obsidian-vimrc-support) to execute Obsidian commands through VIM keybindings. 
+These commands can be used in the [vimrc file](https://github.com/esm7/obsidian-vimrc-support) to execute Obsidian commands through Vim keybindings. 
 
-Example: `exmap foldall obcommand editor:fold-all`
+To get an up to date list, open up the developer console in Obsidian, go back to your editor, type `obcommand`, and watch the log output in the developer console. 
+
+Example mapping in `.vimrc`: 
+
+`exmap foldall obcommand editor:fold-all`
 
 ## Common commands
 ```
