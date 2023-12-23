@@ -84,7 +84,7 @@ nmap zm :foldmore
 
 "--- PLUGINS ---"
 
-" Surround plugin keymaps (other plugins don't work)
+" Surround plugin keymaps (other Vim plugins don't work, unfortunately)
 " usage: either mark word in visual mode or go over word in normal mode
 " these lines create new commands which are then used in the bottom
 exmap surround_wiki surround [[ ]]         
