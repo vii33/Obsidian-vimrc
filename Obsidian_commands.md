@@ -1,4 +1,4 @@
-# Available vimrc commands in Obsidian
+# Available .vimrc commands in Obsidian
 
 These commands can be used in the [vimrc file](https://github.com/esm7/obsidian-vimrc-support) to execute Obsidian commands through Vim keybindings. 
 
