@@ -4,24 +4,31 @@
 
 
 
-![Header Image](readme-images/Header.jpg)
+![Header Image](imgs/obisidian_vim_logo.png)
 
-# Obsidian .vimrc Jumpstart File
+# Obsidian .vimrc jump start 
 
 ## Background
-Vim is a [brilliant language](https://www.youtube.com/watch?v=XfJBvgnCeBk) to efficently manage and navigate in structured pieces of text. With the Obsidian editor this build a nice synergy, because  Obsidian notes consists out of larger markdown chunks. Therefore,obsidian has [native Vim support](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Vim+users).
+Vim is a [brilliant language](https://www.youtube.com/watch?v=XfJBvgnCeBk) for efficently managing and navigating structured text. With the Obsidian editor, this creates a nice synergy, because Obsidian notes consists out of larger markdown chunks. This is way Obsidian has [native Vim support](https://publish.obsidian.md/hub/04+-+Guides%2C+Workflows%2C+%26+Courses/for+Vim+users).
 
-To further enhance Vim capabilities in Obsidian, esm7 has build the [vimrc plugin](https://github.com/esm7/obsidian-vimrc-support), based on CodeMirror, to store Vim configurations in `.obsidian.vimrc` files.
+To further enhance the Vim capabilities in Obsidian, esm7 has build the [vimrc plugin](https://github.com/esm7/obsidian-vimrc-support), based on CodeMirror, to store custom Vim configurations.
+
+---
+
 
 ## `.obsidian.vimrc`
-The following code is my `.obsidian.vimrc` base file, which you can use to get a jumpstart.
+The following code is my `.obsidian.vimrc` base file, which you can use to get a jump start. Copy it in your vault's root folder.
 
-If you need to use internal Obsidian command bindings, check out the [Obsidian commands](Obsidian_commands.md) file.
+For further installation instructions check out the [vimrc plugin website](https://github.com/esm7/obsidian-vimrc-support).
+
+If you need to use internal Obsidian command bindings (like "open new tab"), check out the [Obsidian commands](Obsidian_commands.md) file.
 
 
 ```vim
-" See here for available codemirror operators/motions: (until about line 200) - https://github.com/replit/codemirror-vim/blob/master/src/vim.js
-" To see available internal Obsidian commands, go to developer console, click in the editor, type :obcommand and check log output 
+" Use in Obsidian.md to remap Vim keybindings. More info: https://github.com/vii33/Obsidian-vimrc
+ 
+" Available CodeMirror operators/motions: https://github.com/replit/codemirror-vim/blob/master/src/vim.js
+" Available internal Obsidian commands, go to developer console, click in the editor, type :obcommand and check log output 
 
 " Have j and k navigate visual lines rather than logical ones
 nmap j gj
